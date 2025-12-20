@@ -1,7 +1,0 @@
-• Built a secure full stack online voting platform with role based access control for voters, candidates, and administrators using React.js, PHP, Python, and MySQL, ensuring 100% data isolation and seamless user interaction.
-
-
-• Integrated Twilio API for OTP based authentication, eliminating false voting incidents by 90%, while developing RESTful APIs to streamline real time communication between the front end and backend.
-
-
-• Developed an interactive analytics dashboard with React charts and MySQL aggregation, enabling data visualization and CSV export, improving result transparency and system usability by over 60%.
