@@ -1,0 +1,117 @@
+.update-expiry-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #000; /* Pitch black */
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.update-expiry-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #ff9933; /* Saffron */
+  border-bottom: 2px solid #138808; /* Green */
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.update-expiry-container form,
+.result-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.update-expiry-container label {
+  font-weight: 600;
+  color: #00aaff;
+  margin-bottom: 5px;
+}
+
+.update-expiry-container input,
+.update-expiry-container select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background-color: #111;
+  color: #fff;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.update-expiry-container input:focus,
+.update-expiry-container select:focus {
+  outline: none;
+  border-color: #ff9933; /* saffron */
+  box-shadow: 0 0 8px #138808; /* green glow */
+}
+
+/* Buttons - Solid Tricolor */
+.save-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #ff9933; /* saffron */
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.update-expiry-container button:hover {
+  background-color: #138808; /* green */
+  color: #fff;
+  transform: scale(1.02);
+}
+
+.error {
+  color: #ff4c4c;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.success {
+  color: #00e676;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.result-box {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #111;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
+}
+
+.result-box h3 {
+  text-align: center;
+  color: #ff9933;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+/* Dropdown Specific */
+.update-expiry-container select[name="state"],
+.update-expiry-container select[name="city"],
+.update-expiry-container select[name="gender"] {
+  background: #1a1a1a;
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+.update-expiry-container select:hover {
+  border-color: #00aaff;
+}

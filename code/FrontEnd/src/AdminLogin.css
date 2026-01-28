@@ -1,0 +1,76 @@
+.admin-container {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 30px;
+}
+
+.admin-login {
+  background: #111111;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  border: 1px solid #333;
+}
+
+.admin-title {
+  color: orange;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #138808;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.admin-input {
+  padding: 12px;
+  width: 100%;
+  margin: 12px 0;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: #000000;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.admin-btn {
+  background-color: green;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.admin-btn:hover {
+  transform: scale(1.05);
+}
+
+.error-text {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.admin-dashboard {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.admin-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
